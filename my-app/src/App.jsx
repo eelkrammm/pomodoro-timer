@@ -23,7 +23,7 @@ function Header() {
 }
 
 function Main() {
-  const [timeLeft, setTimeLeft] = useState(2500);
+  const [timeLeft, setTimeLeft] = useState(1500);
   const [isRunning, setIsRunning] = useState(false);
   const [isAlarmPlaying, setIsAlarmPlaying] = useState(false);
   const [currentState, setCurrentState] = useState("pomodoro");
