@@ -1,0 +1,8 @@
+body{
+    display: flex; 
+    justify-content: center; 
+    height: 100vh;
+    background-color: #75619d;
+    font-family: sans-serif; 
+    color: #f8fafc;
+}

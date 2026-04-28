@@ -1,0 +1,62 @@
+.app {
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.header {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.setting {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+
+.setting-button,.start-pause{
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+cursor: pointer;
+background-color: #beaedb;
+}
+
+.setting-button:active,.start-pause:active{
+ transform: translate(2px, 2px);
+}
+
+.timer{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.footer{
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+  .app {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .timer {
+    font-size: 90%
+  }
+
+  .setting-button,.start-pause{
+  width: 100px;
+  
+}
+}
+
